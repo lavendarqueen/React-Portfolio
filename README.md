@@ -54,7 +54,7 @@ Any contributions made in the spirit of sharing ideas and concepts, will be grea
 - GitHub username: lavendarqueen
 - GitHub repository: https://github.com/lavendarqueen/React-Portfolio
 
-![Yellow Triangle](/src/assets/images/Screenshot3-logo.png)
+![Yellow Triangle](/src/assets/images/PAL-logo.png)
 
 ## User Story
 
