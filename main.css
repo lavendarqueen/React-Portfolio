@@ -1,0 +1,10 @@
+:root {
+  font-family: ;
+  font-weight: ;
+  font-style: normal;
+  --colors: var(--colors);
+}
+
+body {
+  background-color: var(--color);
+}
