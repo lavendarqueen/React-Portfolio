@@ -22,7 +22,7 @@ This application is the author's Professional portfolio built using React and Ja
 
 ## License
 
-[License](https://img.shields.io/badge/License-MIT-blue.svg)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
 Copyright (c) 2024 Phyllis Ann Lataille
 
@@ -54,13 +54,16 @@ Any contributions made in the spirit of sharing ideas and concepts, will be grea
 - GitHub username: lavendarqueen
 - GitHub repository: https://github.com/lavendarqueen/React-Portfolio
 
-![Yellow Triangle](/assets/images/Screenshot3-logo.png)
+![Yellow Triangle](/src/assets/images/Screenshot3-logo.png)
 
-User Story
+## User Story
+
 AS AN employer looking for candidates with experience building single-page applications
 I WANT to view a potential employee's deployed React portfolio of work samples
 SO THAT I can assess whether they're a good candidate for an open position
-Acceptance Criteria
+
+## Acceptance Criteria
+
 GIVEN a single-page application portfolio for a web developer
 WHEN I load the portfolio
 THEN I am presented with a page containing a header, a section for content, and a footer
