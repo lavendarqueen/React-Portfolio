@@ -1,0 +1,47 @@
+@import url("../main.css");
+
+h1 {
+  font-family: "Briem Hand";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+  text-align: center;
+}
+
+#header {
+  background-color: var(--green-2);
+  color: var(--green-0);
+}
+
+.navbuttons {
+  display: flex;
+  flex-direction: column;
+  position: static;
+  width: 60%;
+  list-style-type: none;
+  padding: 0;
+}
+
+#navbuttons {
+  justify-content: center;
+  align-items: right;
+}
+
+.navbutton,
+.navbutton-active {
+  font-family: "Briem Hand", cursive;
+  font-weight: bold;
+  font-size: 25px;
+  width: 35%;
+  display: inline-block;
+  padding: 0.37rem;
+  border: 1px;
+  text-align: center;
+  background-color: var(--green-1);
+  color: var(--green-0);
+}
+
+.navbutton-active {
+  background-color: var(--green-0);
+  color: var(--yellow-0);
+}

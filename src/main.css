@@ -1,0 +1,16 @@
+:root {
+  font-family: "Briem Hand", cursive;
+  font-optical-sizing: auto;
+  font-size: 25px;
+  font-weight: 500;
+  font-style: normal;
+
+  --green-0: #178536;
+  --green-1: #94d2bd;
+  --green-2: #a4e6bb;
+  --yellow-0: #e5f993;
+}
+
+body {
+  background-color: var(--green-2);
+}
