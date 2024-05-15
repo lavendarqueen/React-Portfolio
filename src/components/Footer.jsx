@@ -15,7 +15,7 @@ export default function Footer() {
         <a
           className="footerNav"
           target="_blank"
-          href="www.linkedin.com/in/phyllis-lataille-92598b26b"
+          href="https://linkedin.com/in/phyllis-ann-lataille-92598b26b"
         >
           LinkedIn Profile
         </a>

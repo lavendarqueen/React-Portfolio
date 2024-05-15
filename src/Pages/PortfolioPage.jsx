@@ -10,7 +10,7 @@ export default function PortfolioPage() {
         <PortfolioCard
           key={project.title}
           title={project.title}
-          github={project.github}
+          github={project.vendor}
           image={project.image}
           deployed={project.deployed}
         />
