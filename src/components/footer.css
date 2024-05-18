@@ -1,10 +1,7 @@
 @import url("../main.css");
 
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: auto; /* Set the fixed height of the footer here */
+  margin-top: auto;
   background-color: var(--green-2);
 }
 
@@ -13,4 +10,6 @@
   text-decoration: none;
   color: var(--green-1);
   font-weight: bold;
+  display: flex;
+  justify-content: space-around;
 }

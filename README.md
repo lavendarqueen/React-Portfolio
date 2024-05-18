@@ -1,5 +1,7 @@
 # Phyllis-Ann-Lataille-React-Portfolio
 
+![badmath](https://img.shields.io/github/languages/top/lernantino/badmath) 
+
 ## Description
 
 This application is the author's Professional portfolio built using React and JavaScript...............

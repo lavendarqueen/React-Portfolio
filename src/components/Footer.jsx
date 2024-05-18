@@ -10,21 +10,21 @@ export default function Footer() {
           target="_blank"
           href="https://github.com/lavendarqueen"
         >
-          GitHub Profile
+          <i className="fa-brands fa-github"></i>
         </a>
         <a
           className="footerNav"
           target="_blank"
           href="https://linkedin.com/in/phyllis-ann-lataille-92598b26b"
         >
-          LinkedIn Profile
+          <i className="fa-brands fa-linkedin-in"></i>
         </a>
         <a
           className="footerNav"
           target="_blank"
           href="https://stackoverflow.com/users/23350600/phyllis-ann"
         >
-          Stack Overflow Profile
+          <i className="fa-brands fa-stack-overflow"></i>
         </a>
       </div>
     </footer>

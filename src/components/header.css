@@ -1,13 +1,16 @@
 @import url("../main.css");
 
-
-
 h1 {
   font-family: "Briem Hand";
   font-weight: 400;
   font-style: normal;
   font-size: 65px;
   text-align: center;
+}
+
+#profilePic {
+  margin-top: 0.5rem;
+  margin-left: 1rem;
 }
 
 #header {
