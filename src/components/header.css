@@ -8,45 +8,21 @@ h1 {
   text-align: center;
 }
 
-#profilePic {
-  margin-top: 0.5rem;
-  margin-left: 1rem;
+h3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 2em;
 }
 
 #header {
   background-color: var(--green-2);
   color: var(--green-0);
-}
-
-.navbuttons {
   display: flex;
-  flex-direction: column;
-  position: static;
-  width: 60%;
-  list-style-type: none;
-  padding: 0;
+  justify-content: space-between;
 }
 
-#navbuttons {
-  justify-content: center;
-  align-items: right;
-}
-
-.navbutton,
-.navbutton-active {
-  font-family: "Briem Hand", cursive;
-  font-weight: bold;
-  font-size: 25px;
-  width: 35%;
-  display: inline-block;
-  padding: 0.37rem;
-  border: 1px;
-  text-align: center;
-  background-color: var(--green-1);
-  color: var(--green-0);
-}
-
-.navbutton-active {
-  background-color: var(--green-0);
-  color: var(--yellow-0);
+#profilePic,
+#header-center,
+#header-right {
+  flex-basis: 28%;
 }

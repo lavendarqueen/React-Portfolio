@@ -3,9 +3,9 @@
 
 export default function AboutMePage() {
   return (
-    <div>
+    <div className="">
       <p>
-        I have always been fascinated with computers. Computers are a huge part
+        I have always had a  fascination with computers. Computers are a huge part
         of my family life. My mother was a computer programmer in the days
         before the PC, programming mainframe computers that used punch cards for
         input! My son took web development in high school and his team won
@@ -13,13 +13,11 @@ export default function AboutMePage() {
         systems administrator. My nephew is the CEO of a web development
         company, having studied web development and business management.
       </p>
-      <br />
       <p>
         I took my first computer course consisting of Cobol and RPG2 when I was
         18 years old. Later, I took online courses in html, CSS, JavaScript, and
         Bootstrap.
       </p>
-      <br />
       <p>
         Having worked as a paralegal for a number of years, I decided it was
         time to change career paths. I wanted to expand my web development

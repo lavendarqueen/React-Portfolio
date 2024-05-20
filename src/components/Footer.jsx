@@ -4,7 +4,7 @@ import "./footer.css";
 export default function Footer() {
   return (
     <footer className="footer">
-      <div className="container flex-column d-flex align-items-center py-3">
+      <div className="container flex-row d-flex align-items-center py-3">
         <a
           className="footerNav"
           target="_blank"

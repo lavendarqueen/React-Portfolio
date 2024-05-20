@@ -20,5 +20,12 @@ html,
 }
 
 body {
+  color: var(--green-0);
   background-color: var(--green-2);
+  margin: 0.5rem 1rem;
+}
+
+.features-icons {
+  background: var(--yellow-0);
+  border: 2px solid #178536;
 }
