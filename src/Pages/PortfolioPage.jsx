@@ -5,7 +5,7 @@ import ProjectCard from "../components/ProjectCard";
 
 export default function PortfolioPage() {
   return (
-    <div>
+    <div className="projectCard">
       {projectData.map((project) => (
         <ProjectCard
           key={project.title}

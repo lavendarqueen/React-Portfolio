@@ -1,2 +1,5 @@
 @import url("../main.css");
 
+.projectCard {
+  background-color: var(green-2);
+}
