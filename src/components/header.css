@@ -21,8 +21,6 @@ h3 {
   justify-content: space-between;
 }
 
-#profilePic,
-#header-center,
-#header-right {
+#header-center {
   flex-basis: 28%;
 }

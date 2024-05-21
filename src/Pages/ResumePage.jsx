@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import resume from "../assets/pdf/resume.pdf";
 import { pdfjs, Document, Page } from "react-pdf";
+import Button from "react-bootstrap/Button";
 
 export default function ResumePage() {
   pdfjs.GlobalWorkerOptions.workerSrc = new URL(
@@ -40,39 +41,43 @@ export default function ResumePage() {
       <div className="pb-2 mx-5">
         <h3 className="pb-2 text-3xl">Resume</h3>
         <h6>
-          Toggle here to view my{" "}
+          Toggle here to view my resume as an{" "}
           <a href="#image" onClick={handleClick} className="underline">
-            resume
-          </a>{" "}
-          as an image.
+            <Link variant="text-decoration-none text-success">image</Link>
+          </a>.
         </h6>
-        Click here to download my{" "}
-        <a href="#download" onClick={handleDownload} className="underline">
-          resume as a pdf.
-        </a>
+        <h6>
+          Click here to download my resume as a{" "}
+          <a href="#download" onClick={handleDownload} className="underline">
+            <Link variant="success">PDF</Link>
+          </a>.
+        </h6>
       </div>
       {showPDF ? (
-        <div className="mx-5 flex flex-row">
-          <ul className="mx-5">
-            <p className="font-bold"> Front-end Proficiencies</p>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>jQuery</li>
-            <li>Responsive Design</li>
-            <li>ReactJS</li>
-            <li>Bootstrap</li>
-          </ul>
-
-          <ul className="mx-5 basis-50">
-            <p className="font-bold"> Back-end Proficiencies</p>
-            <li>Node</li>
-            <li>Express</li>
-            <li>MySQL & Sequelize</li>
-            <li>MongoDB & Mongoose</li>
-            <li>REST APIs</li>
-            <li>GraphQL</li>
-          </ul>
+        <div className="receptacle mx-5">
+          <div className="">
+            <ul className="mx-5">
+              <p className="front-end  fw-bold">FRONT-END PROFICIENCIES</p>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>jQuery</li>
+              <li>Responsive Design</li>
+              <li>ReactJS</li>
+              <li>Bootstrap</li>
+            </ul>
+          </div>
+          <div>
+            <ul className="mx-5">
+              <p className="back-end fw-bold">BACK-END PROFICIENCIES</p>
+              <li>Node</li>
+              <li>Express</li>
+              <li>MySQL & Sequelize</li>
+              <li>MongoDB & Mongoose</li>
+              <li>REST APIs</li>
+              <li>GraphQL</li>
+            </ul>
+          </div>
         </div>
       ) : (
         <div className="">

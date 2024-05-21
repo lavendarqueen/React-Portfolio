@@ -13,8 +13,11 @@
 }
 
 .fa-brands {
-  margin-left: 5rem;
-  margin-right: 5rem;
   color: var(--green-0);
   font-size: 2rem;
+}
+
+.footer > div {
+  display: flex;
+  justify-content: space-around;
 }

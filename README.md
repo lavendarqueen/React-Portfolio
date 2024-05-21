@@ -1,26 +1,62 @@
 # Phyllis-Ann-Lataille-React-Portfolio
 
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath) 
+![React](https://img.shields.io/badge/React-18.2.0-blue)
+![vite](https://img.shields.io/badge/vite-5.1.6-violet)
+![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3.3-violet)
+![ESLint](https://img.shields.io/badge/ESLint-8.38.0-blue)
 
 ## Description
 
 This application is the author's Professional portfolio built using React and JavaScript...............
+Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 
-## Table of Contents
+- What was your motivation?
+- Why did you build this project?
+- What problem does it solve?
+- What did you learn?
 
+## Table of Contents (Optional)
+
+- [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Tests](#tests)
 - [Credits](#credits)
 - [License](#license)
 - [Contributions](#contributions)
-- [Contact](#contact)
+- [Questions](#questions)
+- [User Story](#user_story)
+
+## Features
+
+This project features five virtual pages in a single page website. Its main.jsx and app.jsx files configure and render three sections; header, outlet, and footer to this single page application, so that the header and footer appear on the page and the outlet renders the actual pages (AboutMePage, ContactMePage, ErrorPage, PortfolioPage, and ResumePage). he ContactMePage features a form to be completed by interested users.
+
+The Header component renders the author's profile image, H1 and H2 providing the Author's name and job title, and the nav component to navigate to any of the virtual pages from any of the virtual pages.
+
+The AboutMePage is the default component and provides a short biography of the author's professional experience. The ContactMePage renders a form so that interested users can send a message to the author. The ErrorPage renders any errors detected by the server. The PortfolioPage renders 6 "cards" that contain screenshots and repository and deployment information for 6 of the author's projects and the ResumePage renders content with links that allow the user to view the author's resume as an image and/or download a PDF version of the resume.
 
 ## Installation
 
+Installation of the portfolio requires the following command line input:
+
+npm run dev
+
 ## Usage
 
+When the application opens, the user will be on the default page (AboutMe). Using the Nav bar at the top of the page, the user can navigate to and from any of the pages. The
+
+![alt text](assets/images/screenshot.png)
+
 ## Tests
+
+Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+
+## Credits
+
+I collaborated with the following individuals:
+
+I also consulted the following third-party assets:
 
 ## License
 
@@ -38,23 +74,29 @@ furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
 ## Contributions
 
 Any contributions made in the spirit of sharing ideas and concepts, will be greatly appreciated. If you have any suggestions that would make this app better, please fork the repo and create a pull request. You can also open an issue with the tag "contribute". Please give this project a star!
 
-- Instructions for forking:
+### Instructions for forking:
 
-1. Fork the Repository
+1. Fork the Project
 2. Create your Feature Branch (git checkout -b feature/fileName)
 3. Commit your Changes (git commit -m)
 4. Push to the Branch (git push origin feature/newFeature)
 5. Open a Pull Request
 
-## Contact
+## Questions
+
+Please reach out by email or visit my GitHub account with any questions:
 
 - Email: lataillep@gmail.com
-- GitHub username: lavendarqueen
-- GitHub repository: https://github.com/lavendarqueen/React-Portfolio
+- GitHub: https://github.com/lavendarqueen/
+- Deployed Website: <Link>
+- GitHub Repository: <Link>
 
 ![Yellow Triangle](/src/assets/images/PAL-logo.png)
 
@@ -64,7 +106,7 @@ AS AN employer looking for candidates with experience building single-page appli
 I WANT to view a potential employee's deployed React portfolio of work samples
 SO THAT I can assess whether they're a good candidate for an open position
 
-## Acceptance Criteria
+### Acceptance Criteria
 
 GIVEN a single-page application portfolio for a web developer
 WHEN I load the portfolio
