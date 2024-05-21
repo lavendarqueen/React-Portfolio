@@ -20,8 +20,8 @@ export default function AboutMePage() {
         paralegal for a number of years, I decided it was time for a change. I
         wanted to expand my web development skills and put them to good use. I
         enrolled in the Full Stack Web Development course through the University
-        of Denver. As a recent graduate of the program, I am ready to continue
-        my journey in this very cool and interesting field.
+        of Denver. As a recent graduate, I am ready to continue my journey in
+        this very cool and interesting field.
       </p>
     </div>
   );

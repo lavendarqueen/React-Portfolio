@@ -48,7 +48,7 @@ h6 {
 
 .receptacle {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .front-end {
@@ -59,4 +59,8 @@ h6 {
 .back-end {
   text-decoration: underline;
   color: var(--green-0);
+}
+
+ul {
+  font-size: 0.8rem;
 }

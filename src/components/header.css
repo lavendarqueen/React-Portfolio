@@ -24,3 +24,111 @@ h3 {
 #header-center {
   flex-basis: 28%;
 }
+
+#profilePic {
+  background: url(../assets/images/profilePic-1400.jpg);
+  height: auto;
+  width: 100%;
+  margin: 2rem;
+}
+
+@media screen and (min-width: 750rem) {
+  .header-parent {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #profilePic {
+    background: url(../assets/images/profilePic-1200.jpg);
+    height: auto;
+    width: 100%;
+    margin: 2rem;
+  }
+
+  .header-right {
+    justify-content: center;
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 620rem) {
+  .header-parent {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #profilePic {
+    background: url(../assets/images/profilePic-992.jpg);
+    height: auto;
+    width: 100%;
+    margin: 2rem;
+  }
+
+  .header-right {
+    justify-content: center;
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 480rem) {
+  .header-parent {
+    display: flex;
+  }
+
+  #profilePic {
+    background: url(../assets/images/profilePic-768.jpg);
+    height: auto;
+    width: 100%;
+    margin: 2rem;
+  }
+
+  .header-right {
+    justify-content: center;
+    align-items: center;
+    width: 28%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 360rem) {
+  .header-parent {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #profilePic {
+    background: url(../assets/images/profilePic-576.jpg);
+    height: auto;
+    width: 100%;
+    margin: 2rem;
+  }
+
+  .header-right {
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 200rem) {
+  .header-parent {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #profilePic {
+    background: url(../assets/images/profilePic-320.jpg);
+    height: auto;
+    width: 100%;
+    margin: 2rem;
+  }
+
+  .header-right {
+    justify-content: center;
+    width: 100%;
+    height: auto;
+  }
+}
