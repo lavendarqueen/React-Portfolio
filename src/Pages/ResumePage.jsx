@@ -44,13 +44,15 @@ export default function ResumePage() {
           Toggle here to view my resume as an{" "}
           <a href="#image" onClick={handleClick} className="underline">
             <Link variant="text-decoration-none text-success">image</Link>
-          </a>.
+          </a>
+          .
         </h6>
         <h6>
           Click here to download my resume as a{" "}
           <a href="#download" onClick={handleDownload} className="underline">
             <Link variant="success">PDF</Link>
-          </a>.
+          </a>
+          .
         </h6>
       </div>
       {showPDF ? (
@@ -80,7 +82,7 @@ export default function ResumePage() {
           </div>
         </div>
       ) : (
-        <div className="">
+        <div className="document">
           <Document file={resume} onLoadSuccess={onDocumentLoadSuccess}>
             <Page
               pageNumber={pageNumber}
@@ -91,6 +93,7 @@ export default function ResumePage() {
               }
               renderAnnotationLayer={false}
               renderTextLayer={false}
+              style={{ backgroundColor: "#a4e6bb" }}
             />
           </Document>
           <p>

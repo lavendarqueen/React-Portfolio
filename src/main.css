@@ -42,8 +42,14 @@ h6 {
   text-align: center;
 }
 
+.document {
+  display: flex;
+  flex-direction: column;
+}
+
 .resumeImage {
-  margin: 0;
+  justify-content: center;
+  align-items: center;
 }
 
 .receptacle {
@@ -63,4 +69,17 @@ h6 {
 
 ul {
   font-size: 0.8rem;
+}
+
+@media screen and (width < 1029px) {
+  li.navbutton,
+  li.navbutton-active {
+    font-size: 19px;
+  }
+}
+@media screen and (width >= 1029px) {
+  li.navbutton,
+  li.navbutton-active {
+    font-size: 30px;
+  }
 }
