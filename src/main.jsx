@@ -1,11 +1,11 @@
 import ReactDOM from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import App from "./App";
-import PortfolioPage from "./pages/PortfolioPage.jsx";
-import AboutMe from "./pages/AboutMe.jsx";
-import ErrorPage from "./pages/ErrorPage.jsx";
-import ResumePage from "./pages/ResumePage.jsx";
-import ContactMePage from "./pages/ContactMePage.jsx";
+import PortfolioPage from "./Pages/PortfolioPage.jsx";
+import AboutMePage from "./Pages/AboutMePage.jsx";
+import ErrorPage from "./Pages/ErrorPage.jsx";
+import ResumePage from "./Pages/ResumePage.jsx";
+import ContactMePage from "./Pages/ContactMePage.jsx";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./main.css";
 
@@ -17,7 +17,7 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <AboutMe />,
+        element: <AboutMePage />,
       },
 
       {
