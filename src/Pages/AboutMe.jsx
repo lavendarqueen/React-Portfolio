@@ -1,4 +1,4 @@
-export default function AboutMePage() {
+export default function AboutMe() {
   return (
     <div className="mt-2">
       <p>
