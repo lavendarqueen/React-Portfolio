@@ -8,13 +8,8 @@
 
 ## Description
 
-This application is the author's Professional portfolio built using React and JavaScript...............
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project?
-- What problem does it solve?
-- What did you learn?
+This application is the author's professional portfolio built using React, Vite, Bootstrap, and JavaScript.
+I was invested in this project as a means to facilitate my job search. The portfolio gives the view the ability to view my qualifications and samples of my work. It was a challenge styling my portfolio using Bootstrap and React and I had to search for solutions to ultimately get the desired look and responsiveness.
 
 ## Table of Contents (Optional)
 
@@ -44,9 +39,9 @@ npm run dev
 
 ## Usage
 
-When the application opens, the user will be on the default page (AboutMe). Using the Nav bar at the top of the page, the user can navigate to and from any of the pages. The
+When the application opens, the user will be on the default page (AboutMe). Using the Nav bar at the top of the page, the user can navigate to and from any of the virtual pages.
 
-![alt text](assets/images/screenshot.png)
+![alt text](src/assets/images/Screenshot-PersonalBlog.png)
 
 ## Tests
 
@@ -54,9 +49,15 @@ Go the extra mile and write tests for your application. Then provide examples on
 
 ## Credits
 
-I collaborated with the following individuals:
+I collaborated with the following individuals: Tyler Meyers, Tutor Megan Meyers.
 
 I also consulted the following third-party assets:
+
+- Bootstrap docs: https://getbootstrap.com/docs/5.3/getting-started/introduction/
+- React Getting Started: https://react.dev/learn
+- Vite Getting Started: https://vitejs.dev/guide/
+- Vite Deployment: https://vitejs.dev/guide/static-deploy.html#deploying-a-static-site
+- Vite Deployment with Netlify: https://vitejs.dev/guide/static-deploy.html#netlify-with-git
 
 ## License
 
@@ -94,9 +95,9 @@ Any contributions made in the spirit of sharing ideas and concepts, will be grea
 Please reach out by email or visit my GitHub account with any questions:
 
 - Email: lataillep@gmail.com
-- GitHub: https://github.com/lavendarqueen/
+- GitHub username: lavendarqueen
 - Deployed Website: <Link>
-- GitHub Repository: <Link>
+- GitHub Repository: https://github.com/lavendarqueen/React-Portfolio
 
 ![Yellow Triangle](/src/assets/images/PAL-logo.png)
 
