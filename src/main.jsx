@@ -1,7 +1,7 @@
 import ReactDOM from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import App from "./App";
-import AboutMePage from "./pages/AboutMePage.jsx";
+import AboutMePage from "./pages/AboutMe.jsx";
 import ErrorPage from "./pages/ErrorPage.jsx";
 import PortfolioPage from "./pages/PortfolioPage.jsx";
 import ResumePage from "./pages/ResumePage.jsx";
