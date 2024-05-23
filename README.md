@@ -16,7 +16,6 @@ I was invested in this project as a means to facilitate my job search. The portf
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Tests](#tests)
 - [Credits](#credits)
 - [License](#license)
 - [Contributions](#contributions)
