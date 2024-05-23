@@ -101,7 +101,7 @@ Please reach out by email or visit my GitHub account with any questions:
 
 - Email: lataillep@gmail.com
 - GitHub username: lavendarqueen
-- Deployed Website: https://monumental-cassata-f99778.netlify.app/
+- Deployed Website: https://phyllis-ann-lataille-react-portfolio.netlify.app/
 - GitHub Repository: https://github.com/lavendarqueen/React-Portfolio
 
 ![Yellow Triangle](/src/assets/images/PAL-logo.png)
