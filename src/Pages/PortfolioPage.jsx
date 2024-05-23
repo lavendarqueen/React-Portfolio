@@ -2,6 +2,12 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import projectData from "../assets/data/projectData";
 import ProjectCard from "../components/ProjectCard";
+import screenshotPersonalBlog from "../assets/images/screenshotPersonalBlog";
+import screenshotNoteTaker from "../assets/images/screenshotNoteTaker";
+import screenshotWeatherTracker from "../assets/images/screenshotWeatherTracker";
+import screenshotTaskBoard from "../assets/images/screenshotTaskBoard";
+import screenshotEmployeeTracker from "../assets/images/screenshotEmployeeTracker";
+import screenshotOrmBackEnd from "../assets/images/screenshotOrmBackEnd";
 
 export default function PortfolioPage() {
   return (
