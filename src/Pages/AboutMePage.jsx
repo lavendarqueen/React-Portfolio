@@ -1,6 +1,6 @@
 export default function AboutMePage() {
   return (
-    <div className="mt-2">
+    <div className="mt-2 mx-3">
       <p>
         I have always had a fascination with computers and they have always been
         a huge part of my family life. My mother was a computer programmer in

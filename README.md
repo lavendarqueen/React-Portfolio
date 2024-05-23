@@ -41,11 +41,17 @@ npm run dev
 
 When the application opens, the user will be on the default page (AboutMe). Using the Nav bar at the top of the page, the user can navigate to and from any of the virtual pages.
 
-![alt text](src/assets/images/Screenshot-PersonalBlog.png)
+Mobile View:
 
-## Tests
+![Mobile View](src/assets/images/ScreenshotMobileView.png)
 
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+Tablet View:
+
+![Tablet View](src/assets/images/ScreenshotTabletView.png)
+
+Desktop View:
+
+![Desktop View](src/assets/images/ScreenshotDesktopView.png)
 
 ## Credits
 
