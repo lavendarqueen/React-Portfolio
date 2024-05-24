@@ -82,23 +82,24 @@ export default function ResumePage() {
           </div>
         </div>
       ) : (
-        <div className="document">
-          <Document file={resume} onLoadSuccess={onDocumentLoadSuccess}>
-            <Page
-              pageNumber={pageNumber}
-              width={
-                containerWidth
-                  ? Math.min(containerWidth, maxWidth) - 30
-                  : maxWidth
-              }
-              renderAnnotationLayer={false}
-              renderTextLayer={false}
-              style={{ backgroundColor: "#a4e6bb" }}
-            />
-          </Document>
-          <p>
-            Page {pageNumber} of {numPages}
-          </p>
+        <div style={{ display: "flex", justifyContent: "center" }}>
+          <div style={{ maxWidth: maxWidth }}>
+            <Document file={resume} onLoadSuccess={onDocumentLoadSuccess}>
+              <Page
+                pageNumber={pageNumber}
+                width={
+                  containerWidth
+                    ? Math.min(containerWidth, maxWidth) - 30
+                    : maxWidth
+                }
+                renderAnnotationLayer={false}
+                renderTextLayer={false}
+              />
+            </Document>
+            <p>
+              Page {pageNumber} of {numPages}
+            </p>
+          </div>
         </div>
       )}
     </>
